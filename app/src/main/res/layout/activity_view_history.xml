@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/activity_view_history"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/CompletedHabitTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="My Completed Habits" />
+
+    <ListView
+        android:id="@+id/CompletedHabitList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/Backtomain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="BackToMain"/>
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/activity_main"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/HabitTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="my_habits" />
+
+    <ListView
+        android:id="@+id/HabitAndroidList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" >
+
+    </ListView>
+    <Button
+        android:id="@+id/DisplayHabits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:onClick="AddtoList"/>
+
+    <Button
+        android:id="@+id/HabitHistory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:onClick="Vhistory"/>
+
+</LinearLayout>
